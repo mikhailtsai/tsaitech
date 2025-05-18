@@ -1,15 +1,11 @@
-# Tsaitech
+# Tsai.tech
 
 <a alt="Nx logo" href="https://nx.dev" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/nrwl/nx/master/images/nx-logo.png" width="45"></a>
 
-✨ Your new, shiny [Nx workspace](https://nx.dev) is almost ready ✨.
+✨ My shiny [Nx workspace](https://nx.dev) with tsai.tech webapp ✨.
 
-[Learn more about this workspace setup and its capabilities](https://nx.dev/tutorials/3-angular-monorepo/1a-introduction/1-welcome?utm_source=nx_project&amp;utm_medium=readme&amp;utm_campaign=nx_projects) or run `npx nx graph` to visually explore what was created. Now, let's get you up to speed!
-
-## Finish your CI setup
-
-[Click here to finish setting up your workspace!](https://cloud.nx.app/connect/fK4uxiIS6c)
-
+## TODO:
+1. link to `npx nx graph` of this project
 
 ## Run tasks
 

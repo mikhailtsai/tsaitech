@@ -2,7 +2,10 @@
   "name": "@tsaitech/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "start": "nx serve tsaitech",
+    "prepare": "husky"
+  },
   "private": true,
   "dependencies": {
     "@angular/common": "~19.2.0",
@@ -15,6 +18,7 @@
     "@angular/router": "~19.2.0",
     "@angular/ssr": "~19.2.0",
     "express": "^4.21.2",
+    "husky": "^9.1.7",
     "rxjs": "~7.8.0",
     "zone.js": "~0.15.0"
   },
@@ -25,6 +29,8 @@
     "@angular/cli": "~19.2.0",
     "@angular/compiler-cli": "~19.2.0",
     "@angular/language-service": "~19.2.0",
+    "@commitlint/cli": "^19.8.1",
+    "@commitlint/config-conventional": "^19.8.1",
     "@eslint/js": "^9.8.0",
     "@nx/angular": "21.0.3",
     "@nx/devkit": "21.0.3",

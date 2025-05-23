@@ -14,7 +14,11 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@tsaitech/common/ui-kit": ["libs/common/ui-kit/src/index.ts"],
+      "@tsaitech/layout/header": ["libs/layout/header/src/index.ts"],
+      "@tsaitech/pages/home": ["libs/pages/home/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

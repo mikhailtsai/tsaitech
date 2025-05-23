@@ -1,0 +1,20 @@
+:root {
+  // text
+  --tsai-color-text-primary: #ffffff;
+  --tsai-color-text-secondary: #ffffff;
+
+  // background
+  --tsai-color-background-primary: #101010;
+  --tsai-color-background-card: #26262640;
+  --tsai-color-background-panel: #1414148C;
+  --tsai-color-background-input: #161618;
+  --tsai-color-icons: #9E98A9;
+
+  // border
+  --tsai-color-border: #262626B2;
+}
+
+body {
+  background-color: var(--tsai-color-background-primary);
+  color: var(--tsai-color-text-primary);
+}

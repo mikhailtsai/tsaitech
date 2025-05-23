@@ -1,0 +1,22 @@
+<header class="content">
+  <tt-logo />
+
+  <tt-search />
+
+  <div class="menu">
+    <a href="#" class="active">Home</a>
+    <a href="#">UX/UI Design</a>
+    <a href="#">Development</a>
+    <a href="#">Blog</a>
+  </div>
+
+  <div class="social">
+    <a href="#">
+      <div [innerHTML]="assets.telegramSvg | tsaiSafeHtml"></div>
+    </a>
+
+    <a href="#">
+      <div [innerHTML]="assets.linkedInSvg | tsaiSafeHtml"></div>
+    </a>
+  </div>
+</header>

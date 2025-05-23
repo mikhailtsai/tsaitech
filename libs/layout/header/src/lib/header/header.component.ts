@@ -1,4 +1,4 @@
-import { ChangeDetectionStrategy, Component } from '@angular/core';
+import { ChangeDetectionStrategy, Component, input } from '@angular/core';
 
 import { SafeHtmlPipe } from '@tsaitech/common/ui-kit';
 
@@ -22,4 +22,6 @@ export class HeaderComponent {
     telegramSvg,
     linkedInSvg,
   };
+
+  withLogo = input<boolean>(true);
 }

@@ -1,0 +1,7 @@
+@if (svg(); as svg) {
+  <div
+    [innerHTML]="svg | tsaiSafeHtml"
+    [style.width.px]="width()"
+    [style.height.px]="height()"
+  ></div>
+}

@@ -1,1 +1,8 @@
-<p>search works!</p>
+<ng-template #icon>
+  <tsai-icon [svg]="iconSvg" [stroke]="true" [size]="16" />
+</ng-template>
+
+<tsai-text-input
+  placeholder="Search"
+  [iconRef]="icon"
+/>

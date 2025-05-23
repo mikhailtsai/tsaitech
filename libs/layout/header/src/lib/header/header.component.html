@@ -6,7 +6,7 @@
   <tt-search />
 
   <div class="menu">
-    <a href="#" class="active">Home</a>
+    <a class="active" href="#">Home</a>
     <a href="#">UX/UI Design</a>
     <a href="#">Development</a>
     <a href="#">Blog</a>
@@ -14,11 +14,11 @@
 
   <div class="social">
     <a href="#">
-      <div [innerHTML]="assets.telegramSvg | tsaiSafeHtml"></div>
+      <tsai-icon [svg]="assets.telegramSvg" [fill]="true" />
     </a>
 
     <a href="#">
-      <div [innerHTML]="assets.linkedInSvg | tsaiSafeHtml"></div>
+      <tsai-icon [svg]="assets.linkedInSvg" [fill]="true" />
     </a>
   </div>
 </header>

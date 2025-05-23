@@ -1,10 +1,12 @@
 :host {
   position: sticky;
+  display: block;
   top: 0;
   padding-top: 0;
   padding-bottom: 0;
-  background: var(--tsai-color-background-panel);
-  backdrop-filter: blur(5px);
+  background: var(--tsai-color-background-header);
+  backdrop-filter: blur(10px);
+  border-bottom: 1.5px solid #000;
 
   .content {
     display: flex;
@@ -18,7 +20,6 @@
       font-weight: 600;
       font-size: 16px;
       line-height: 24px;
-      letter-spacing: 0;
     }
 
     .menu {
@@ -27,13 +28,29 @@
       align-items: center;
       flex: 1;
       padding-right: 64px;
+
+      a {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 24px;
+        text-decoration: inherit;
+        transition: color .25s;
+        padding: 8px 12px;
+
+        &, &:visited, &:focus {
+          color: var(--tsai-color-text-secondary);
+        }
+
+        &:hover {
+          color: var(--tsai-color-active);
+        }
+      }
     }
 
     .social {
       display: flex;
       gap: 12px;
       height: 20px;
-      fill: var(--tsai-color-icons);
     }
   }
 }

@@ -1,6 +1,6 @@
 import { ChangeDetectionStrategy, Component, input } from '@angular/core';
 
-import { SafeHtmlPipe } from '@tsaitech/common/ui-kit';
+import { IconComponent } from '@tsaitech/common/ui-kit';
 
 import { LogoComponent } from '../logo';
 import { SearchComponent } from './components';
@@ -12,7 +12,7 @@ import linkedInSvg from './assets/linkedin.svg';
   templateUrl: './header.component.html',
   styleUrl: './header.component.scss',
   changeDetection: ChangeDetectionStrategy.OnPush,
-  imports: [SearchComponent, SafeHtmlPipe, LogoComponent],
+  imports: [SearchComponent, LogoComponent, IconComponent],
   host: {
     class: 'tsai-container',
   },

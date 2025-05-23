@@ -1,0 +1,13 @@
+@if (iconRef(); as iconRef) {
+  <div class="icon">
+    <ng-container *ngTemplateOutlet="iconRef" />
+  </div>
+}
+
+<input
+  #inputRef
+  type="text"
+  [placeholder]="placeholder()"
+  [value]="value()"
+  (input)="value.set(inputRef.value)"
+/>

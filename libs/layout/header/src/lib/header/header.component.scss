@@ -41,7 +41,7 @@
           color: var(--tsai-color-text-secondary);
         }
 
-        &:hover {
+        &.active, &:hover {
           color: var(--tsai-color-active);
         }
       }

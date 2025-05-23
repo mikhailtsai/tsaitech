@@ -6,13 +6,20 @@ import { LogoComponent } from '../logo';
 import { SearchComponent } from './components';
 import telegramSvg from './assets/telegram.svg';
 import linkedInSvg from './assets/linkedin.svg';
+import { RouterLink, RouterLinkActive } from '@angular/router';
 
 @Component({
   selector: 'tt-header',
   templateUrl: './header.component.html',
   styleUrl: './header.component.scss',
   changeDetection: ChangeDetectionStrategy.OnPush,
-  imports: [SearchComponent, LogoComponent, IconComponent],
+  imports: [
+    SearchComponent,
+    LogoComponent,
+    IconComponent,
+    RouterLink,
+    RouterLinkActive,
+  ],
   host: {
     class: 'tsai-container',
   },

@@ -1,0 +1,38 @@
+@use 'variables/breakpoints';
+
+@function tsaiGetCssVariableName($paths...) {
+  $joined: "";
+
+  @for $i from 1 through length($paths) {
+    $joined: $joined + nth($paths, $i);
+    @if $i < length($paths) {
+      $joined: $joined + "-";
+    }
+  }
+
+  @return --tsai-#{$joined};
+}
+
+@mixin tsaiTextGradient($gradient) {
+  background: $gradient;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@mixin tsaiContainer() {
+  display: block;
+  max-width: breakpoints.$mediaPC;
+  margin: 12px 32px;
+}
+
+@mixin tsaiFont($paths...) {
+  $variableName: tsaiGetCssVariableName($paths...);
+
+  font-size: var(#{$variableName}-font-size);
+  line-height: var(#{$variableName}-line-height);
+  font-weight: var(#{$variableName}-font-weight);
+}
+
+@function tsaiColor($paths...) {
+  @return var(tsaiGetCssVariableName(color, $paths...));
+}

@@ -1,7 +1,5 @@
-@use 'variables/breakpoints';
+@use 'helpers';
 
 .tsai-container {
-  display: block;
-  max-width: breakpoints.$mediaPC;
-  padding: 12px 32px;
+  @include helpers.tsaiContainer();
 }

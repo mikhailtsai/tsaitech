@@ -1,17 +1,24 @@
+@use 'libs/common/ui-kit/helpers.scss';
+
 :host {
   position: sticky;
   display: block;
   top: 0;
-  padding-top: 0;
-  padding-bottom: 0;
   background: var(--tsai-color-background-header);
   backdrop-filter: blur(10px);
-  border-bottom: 1.5px solid #000;
+  border-bottom: 1px solid var(--tsai-color-border);
+  box-shadow: 0 1px 0 0 #000;
+
+  header {
+    @include helpers.tsaiContainer();
+
+    margin-top: 0;
+    margin-bottom: 0;
+  }
 
   .content {
     display: flex;
     align-items: center;
-    border-bottom: 1px solid var(--tsai-color-border);
     min-height: 64px;
 
     .logo {

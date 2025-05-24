@@ -20,9 +20,6 @@ import { RouterLink, RouterLinkActive } from '@angular/router';
     RouterLink,
     RouterLinkActive,
   ],
-  host: {
-    class: 'tsai-container',
-  },
 })
 export class HeaderComponent {
   readonly assets = {

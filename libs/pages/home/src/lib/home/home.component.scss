@@ -33,14 +33,15 @@
 
   &__background {
     position: absolute;
-    background: radial-gradient(circle at right center,#4b296980,#563277 25%,#4a378c 40%,#4066a8 65%,#32517380);
-    mask-image: radial-gradient(ellipse 150% 30% at center center,#000 20%,#00000080 50%,#0000);
-    top: calc(-30% + 95px);
+    top: calc(0% + 95px);
     bottom: -60%;
     left: 0;
     right: 0;
     opacity: 0.6;
     z-index: -1;
+
+    background: radial-gradient(circle at center center, #613788, #4f399c 30%, #4079d6 55%, rgba(57, 99, 145, 0.5));
+    mask-image: radial-gradient(ellipse 80% 30% at center center, #000 20%, #00000080 50%, #0000);
   }
 }
 
@@ -48,7 +49,12 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 100%;
   position: relative;
+
+  width: 100%;
   margin-top: 80px;
+}
+
+.what-we-do {
+
 }

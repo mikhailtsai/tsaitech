@@ -1,8 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,400..600;1,14..32,400..600&display=swap');
 
+html {
+  box-sizing: border-box;
+}
+
 body {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
   font-weight: 400;
+  background-color: var(--tsai-color-background-primary);
+  color: var(--tsai-color-text-primary);
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
 }

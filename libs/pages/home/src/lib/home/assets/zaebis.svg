@@ -1,0 +1,216 @@
+<svg width="1080" height="241" viewBox="0 0 1080 241" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path id="path-1" opacity="0.06" d="M554.5 240.5C554.5 240.5 553.45 216.999 554.5 202C556.433 174.381 568.5 132.5 568.5 132.5L604 13"
+        stroke="url(#paint1_linear_271_3708)"
+        stroke-width="2"
+  />
+  <path id="path-2" opacity="0.06" d="M569.5 240.5C569.5 240.5 569.262 216.868 571.5 202C575.546 175.121 600 138.5 600 138.5L698.5 13"
+        stroke="url(#paint1_linear_271_3708)"
+        stroke-width="2" />
+  <path id="path-3" opacity="0.06" d="M584.5 240.5C584.5 240.5 583.915 216.601 587.5 202C594.557 173.26 635.5 145.5 635.5 145.5L846 1"
+        stroke="url(#paint1_linear_271_3708)"
+        stroke-width="2" />
+  <path id="path-4" opacity="0.06"
+        d="M599.5 240.5C599.5 240.5 599.475 216.338 604 202C610.785 180.5 649.648 161.431 680.5 150C819.5 98.5 1079 1 1079 1"
+        stroke="url(#paint1_linear_271_3708)"
+        stroke-width="2" />
+  <path id="path-5" opacity="0.06" d="M540 22L540 241" stroke="url(#paint0_linear_271_3708)" stroke-width="2" />
+  <path id="path-6" opacity="0.06" d="M525.499 240.5C525.499 240.5 526.549 216.999 525.499 202C523.566 174.381 511.499 132.5 511.499 132.5L475.999 13" stroke="url(#paint2_linear_271_3708)" stroke-width="2" />
+  <path id="path-7" opacity="0.06" d="M510.499 240.5C510.499 240.5 510.737 216.868 508.499 202C504.453 175.121 479.999 138.5 479.999 138.5L381.499 13" stroke="url(#paint2_linear_271_3708)" stroke-width="2" />
+  <path id="path-8" opacity="0.06" d="M495.499 240.5C495.499 240.5 496.084 216.601 492.499 202C485.442 173.26 444.499 145.5 444.499 145.5L233.999 1" stroke="url(#paint2_linear_271_3708)" stroke-width="2" />
+  <path id="path-9" opacity="0.06" d="M480.499 240.5C480.499 240.5 480.524 216.338 475.999 202C469.214 180.5 430.351 161.431 399.499 150C260.499 98.5 0.999695 1 0.999695 1" stroke="url(#paint2_linear_271_3708)" stroke-width="2" />
+
+  <g opacity="0" filter="url(#filter0_d_271_3708)">
+    <circle cx="0" cy="0" r="4" fill="#81BAFF" />
+
+    <animateMotion id="motionAnim1" dur="0.4s" begin="0s;motionAnim1.end+3.5s" fill="freeze" rotate="auto">
+      <mpath href="#path-1" />
+    </animateMotion>
+
+    <animate attributeName="opacity"
+             values="0;1;1;0"
+             keyTimes="0;0.3;0.7;1"
+             dur="0.4s"
+             begin="motionAnim1.begin;motionAnim1.end+3.5s"
+             fill="freeze" />
+  </g>
+
+  <g opacity="0" filter="url(#filter1_d_271_3708)">
+    <circle cx="0" cy="0" r="4" fill="#9475FF" />
+
+    <animateMotion id="motionAnim2" dur="0.4s" begin="0.2s;motionAnim2.end+3.75s" fill="freeze" rotate="auto">
+      <mpath href="#path-6" />
+    </animateMotion>
+
+    <animate attributeName="opacity"
+             values="0;1;1;0"
+             keyTimes="0;0.3;0.7;1"
+             dur="0.4s"
+             begin="motionAnim2.begin;motionAnim2.end+3.75s"
+             fill="freeze" />
+  </g>
+
+  <g opacity="0">
+    <g filter="url(#filter2_d_271_3708)">
+      <circle r="4" cx="0" cy="0" fill="#C469F9" />
+    </g>
+
+    <animateMotion id="motionAnim3" dur="0.4s" begin="2.25s;motionAnim3.end+5.5s" fill="freeze" rotate="auto">
+      <mpath href="#path-3" />
+    </animateMotion>
+
+    <animate attributeName="opacity"
+             values="0;1;1;0"
+             keyTimes="0;0.3;0.7;1"
+             dur="0.4s"
+             begin="motionAnim3.begin;motionAnim3.end+5.5s"
+             fill="freeze" />
+  </g>
+
+  <g opacity="0" filter="url(#filter0_d_271_3708)">
+    <circle cx="0" cy="0" r="4" fill="#81BAFF" />
+
+    <animateMotion id="motionAnim4" dur="0.4s" begin="2.5s;motionAnim4.end+4.5s" fill="freeze" rotate="auto">
+      <mpath href="#path-9" />
+    </animateMotion>
+
+    <animate attributeName="opacity"
+             values="0;1;1;0"
+             keyTimes="0;0.3;0.7;1"
+             dur="2.5s"
+             begin="motionAnim4.begin;motionAnim4.end+4.5s"
+             fill="freeze" />
+  </g>
+
+  <g opacity="0" filter="url(#filter1_d_271_3708)">
+    <circle cx="0" cy="0" r="4" fill="#9475FF" />
+
+    <animateMotion id="motionAnim5" dur="0.4s" begin="4s;motionAnim5.end+6s" fill="freeze" rotate="auto">
+      <mpath href="#path-4" />
+    </animateMotion>
+
+    <animate attributeName="opacity"
+             values="0;1;1;0"
+             keyTimes="0;0.3;0.7;1"
+             dur="0.4s"
+             begin="motionAnim5.begin;motionAnim5.end+6s"
+             fill="freeze" />
+  </g>
+
+  <g opacity="0">
+    <g filter="url(#filter2_d_271_3708)">
+      <circle r="4" cx="0" cy="0" fill="#C469F9" />
+    </g>
+
+    <animateMotion id="motionAnim6" dur="0.4s" begin="5.25s;motionAnim6.end+4.5s" fill="freeze" rotate="auto">
+      <mpath href="#path-2" />
+    </animateMotion>
+
+    <animate attributeName="opacity"
+             values="0;1;1;0"
+             keyTimes="0;0.3;0.7;1"
+             dur="0.4s"
+             begin="motionAnim6.begin;motionAnim6.end+4.5s"
+             fill="freeze" />
+  </g>
+
+  <g opacity="0" filter="url(#filter0_d_271_3708)">
+    <circle cx="0" cy="0" r="4" fill="#81BAFF" />
+
+    <animateMotion id="motionAnim7" dur="0.4s" begin="6s;motionAnim7.end+6.5s" fill="freeze" rotate="auto">
+      <mpath href="#path-7" />
+    </animateMotion>
+
+    <animate attributeName="opacity"
+             values="0;1;1;0"
+             keyTimes="0;0.3;0.7;1"
+             dur="0.4s"
+             begin="motionAnim7.begin;motionAnim7.end+6.5s"
+             fill="freeze" />
+  </g>
+
+  <g opacity="0" filter="url(#filter1_d_271_3708)">
+    <circle cx="0" cy="0" r="4" fill="#9475FF" />
+
+    <animateMotion id="motionAnim8" dur="0.4s" begin="7.75s;motionAnim8.end+4s" fill="freeze" rotate="auto">
+      <mpath href="#path-6" />
+    </animateMotion>
+
+    <animate attributeName="opacity"
+             values="0;1;1;0"
+             keyTimes="0;0.3;0.7;1"
+             dur="0.4s"
+             begin="motionAnim8.begin;motionAnim8.end+4s"
+             fill="freeze" />
+  </g>
+
+  <g opacity="0">
+    <g filter="url(#filter2_d_271_3708)">
+      <circle r="4" cx="0" cy="0" fill="#C469F9" />
+    </g>
+
+    <animateMotion id="motionAnim9" dur="0.4s" begin="8s;motionAnim9.end+5.5s" fill="freeze" rotate="auto">
+      <mpath href="#path-8" />
+    </animateMotion>
+
+    <animate attributeName="opacity"
+             values="0;1;1;0"
+             keyTimes="0;0.3;0.7;1"
+             dur="0.4s"
+             begin="motionAnim9.begin;motionAnim9.end+5.5s"
+             fill="freeze" />
+  </g>
+
+  <defs>
+    <filter id="filter0_d_271_3708" x="-40" y="-40" width="80" height="80" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix" />
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+      <feOffset />
+      <feGaussianBlur stdDeviation="4" />
+      <feComposite in2="hardAlpha" operator="out" />
+      <feColorMatrix type="matrix" values="0 0 0 0 0.478351 0 0 0 0 0.706795 0 0 0 0 0.983333 0 0 0 1 0" />
+      <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_271_3708" />
+      <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_271_3708" result="shape" />
+    </filter>
+
+    <filter id="filter1_d_271_3708" x="-40" y="-40" width="80" height="80" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix" />
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+      <feOffset />
+      <feGaussianBlur stdDeviation="4" />
+      <feComposite in2="hardAlpha" operator="out" />
+      <feColorMatrix type="matrix" values="0 0 0 0 0.606261 0 0 0 0 0.492188 0 0 0 0 1 0 0 0 1 0" />
+      <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_271_3708" />
+      <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_271_3708" result="shape" />
+    </filter>
+
+    <filter id="filter2_d_271_3708" x="-40" y="-40" width="80" height="80" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix" />
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+      <feOffset />
+      <feGaussianBlur stdDeviation="4" />
+      <feComposite in2="hardAlpha" operator="out" />
+      <feColorMatrix type="matrix" values="0 0 0 0 0.768627 0 0 0 0 0.411765 0 0 0 0 0.976471 0 0 0 1 0" />
+      <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_271_3708" />
+      <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_271_3708" result="shape" />
+    </filter>
+
+    <linearGradient id="paint0_linear_271_3708" x1="540.274" y1="5.22554" x2="610.553" y2="25.9998"
+                    gradientUnits="userSpaceOnUse">
+      <stop offset="0.005" stop-color="#D5E6FF" stop-opacity="0" />
+      <stop offset="0.47758" stop-color="#D5E6FF" />
+      <stop offset="1" stop-color="#D5E6FF" stop-opacity="0" />
+    </linearGradient>
+    <linearGradient id="paint1_linear_271_3708" x1="652" y1="20.5" x2="635.516" y2="252.87"
+                    gradientUnits="userSpaceOnUse">
+      <stop offset="0.005" stop-color="#D5E6FF" stop-opacity="0" />
+      <stop offset="0.47758" stop-color="#D5E6FF" />
+      <stop offset="1" stop-color="#D5E6FF" stop-opacity="0" />
+    </linearGradient>
+    <linearGradient id="paint2_linear_271_3708" x1="492.5" y1="20.5" x2="474.042" y2="246.938"
+                    gradientUnits="userSpaceOnUse">
+      <stop offset="0.005" stop-color="#D5E6FF" stop-opacity="0" />
+      <stop offset="0.443626" stop-color="#D5E6FF" />
+      <stop offset="0.995074" stop-color="#D5E6FF" stop-opacity="0" />
+    </linearGradient>
+  </defs>
+</svg>

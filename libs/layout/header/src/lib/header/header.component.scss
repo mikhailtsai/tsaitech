@@ -12,8 +12,8 @@
   header {
     @include helpers.tsaiContainer();
 
-    margin-top: 0;
-    margin-bottom: 0;
+    padding-top: 0;
+    padding-bottom: 0;
   }
 
   .content {
@@ -45,12 +45,20 @@
         padding: 8px 12px;
 
         &, &:visited, &:focus {
-          color: var(--tsai-color-text-secondary);
+          color: helpers.tsaiColor(text, secondary);
         }
 
         &.active, &:hover {
-          color: var(--tsai-color-active);
+          color: helpers.tsaiColor(active);
         }
+      }
+
+      .pink {
+        @include helpers.tsaiTextGradient(helpers.tsaiColor(gradient, landing, title, pink));
+      }
+
+      .blue {
+        @include helpers.tsaiTextGradient(helpers.tsaiColor(gradient, landing, title, blue));
       }
     }
 

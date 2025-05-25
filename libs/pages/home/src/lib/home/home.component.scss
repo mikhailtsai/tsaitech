@@ -20,11 +20,11 @@
   }
 
   p {
+    @include helpers.tsaiFont(text, primary);
+
     margin-top: 24px;
-    font-weight: 400;
-    font-size: 20px;
     line-height: 150%;
-    color: helpers.tsaiColor();
+    color: helpers.tsaiColor(text, secondary);
   }
 
   &__actions {
@@ -33,15 +33,22 @@
 
   &__background {
     position: absolute;
-    top: calc(0% + 95px);
-    bottom: -60%;
+    top: calc(-35% + 95px);
+    bottom: -50%;
     left: 0;
     right: 0;
     opacity: 0.6;
     z-index: -1;
 
-    background: radial-gradient(circle at center center, #613788, #4f399c 30%, #4079d6 55%, rgba(57, 99, 145, 0.5));
-    mask-image: radial-gradient(ellipse 80% 30% at center center, #000 20%, #00000080 50%, #0000);
+    // background: radial-gradient(circle at center center, #613788, #4f399c 30%, #4079d6 55%, rgba(57, 99, 145, 0.5));
+    background: radial-gradient(
+        circle at center center,
+        #4079d6 0%,
+        rgba(57, 99, 145, 0.2) 45%,
+        #4f399c 55%,
+        #613788
+    );
+    mask-image: radial-gradient(ellipse 80% 22% at center center, #000 20%, #00000080 50%, #0000);
   }
 }
 
@@ -56,5 +63,17 @@
 }
 
 .what-we-do {
+  text-align: center;
 
+  h2 {
+    @include helpers.tsaiFont(landing, heading, subtitle);
+  }
+
+  p {
+    @include helpers.tsaiFont(text, primary);
+
+    margin-top: 16px;
+    line-height: 150%;
+    color: helpers.tsaiColor(text, secondary);
+  }
 }

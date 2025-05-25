@@ -19,10 +19,11 @@
   -webkit-text-fill-color: transparent;
 }
 
-@mixin tsaiContainer() {
-  display: block;
+@mixin tsaiContainer($display: block) {
+  display: $display;
   max-width: breakpoints.$mediaPC;
-  margin: 12px 32px;
+  padding: 12px 32px;
+  margin: 0 auto;
 }
 
 @mixin tsaiFont($paths...) {

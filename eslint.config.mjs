@@ -17,8 +17,12 @@ export default [
           allow: ['^.*/eslint(\\.base)?\\.config\\.[cm]?js$'],
           depConstraints: [
             {
-              sourceTag: '*',
-              onlyDependOnLibsWithTags: ['*'],
+              sourceTag: 'scope:webapp',
+              onlyDependOnLibsWithTags: ['scope:page:*'],
+            },
+            {
+              sourceTag: 'scope:page:*',
+              onlyDependOnLibsWithTags: ['scope:common', 'scope:layout'],
             },
           ],
         },

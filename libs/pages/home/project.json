@@ -4,7 +4,7 @@
   "sourceRoot": "libs/pages/home/src",
   "prefix": "tt",
   "projectType": "library",
-  "tags": [],
+  "tags": ["scope:page:home"],
   "targets": {
     "test": {
       "executor": "@nx/jest:jest",

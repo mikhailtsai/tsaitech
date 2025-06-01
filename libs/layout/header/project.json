@@ -4,7 +4,7 @@
   "sourceRoot": "libs/common/header/src",
   "prefix": "tt",
   "projectType": "library",
-  "tags": [],
+  "tags": ["scope:layout"],
   "targets": {
     "test": {
       "executor": "@nx/jest:jest",

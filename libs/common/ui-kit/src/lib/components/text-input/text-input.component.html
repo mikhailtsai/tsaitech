@@ -1,11 +1,12 @@
 @if (iconRef(); as iconRef) {
-  <div class="icon">
+  <div class="tsai-text-input__icon">
     <ng-container *ngTemplateOutlet="iconRef" />
   </div>
 }
 
 <input
   #inputRef
+  class="tsai-text-input"
   type="text"
   [placeholder]="placeholder()"
   [value]="value()"

@@ -1,0 +1,62 @@
+@use 'libs/common/ui-kit/helpers.scss';
+
+.tsai-button {
+  padding: 12px 24px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  border-radius: 8px;
+  color: helpers.tsaiColor(text, secondary);
+  border: none;
+  transition: all .2s ease-in-out;
+  cursor: pointer;
+
+  &.primary {
+    background: radial-gradient(
+        circle at bottom center,
+        rgba(79, 57, 156, 0.9) 0%,
+        rgba(0, 0, 0, 0.15) 50%,
+        rgba(79, 57, 156, 0.68) 100%
+    );
+    box-shadow: 0 1px #ffffffbf inset;
+
+    &:hover:not(:disabled), &:active:not(:disabled) {
+      box-shadow: 0 1.5px #fffc inset;
+    }
+  }
+
+  &.secondary {
+    background: #3B393F80;
+    border: 1px solid #5E507B;
+
+    &:hover:not(:disabled) {
+      background: #44424980;
+    }
+
+    &:active:not(:disabled) {
+      background: #383445;
+    }
+  }
+
+  &.tertiary {
+    background: transparent;
+    border: 1px solid #5E507B;
+
+    &:hover:not(:disabled) {
+      border: 1px solid rgba(255,255,255,.4);
+    }
+
+    &:active:not(:disabled) {
+      border: 1px solid rgba(255,255,255,.4);
+    }
+  }
+
+  &:hover:not(:disabled) {
+    transform: translate3d(0,-2px, 0);
+  }
+
+  &:disabled {
+    background: #262427;
+    color: helpers.tsaiColor(text, link, disabled);
+  }
+}

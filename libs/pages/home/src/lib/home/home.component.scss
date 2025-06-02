@@ -28,6 +28,10 @@
   }
 
   &__actions {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
     margin-top: 32px;
   }
 
@@ -40,7 +44,6 @@
     opacity: 0.6;
     z-index: -1;
 
-    // background: radial-gradient(circle at center center, #613788, #4f399c 30%, #4079d6 55%, rgba(57, 99, 145, 0.5));
     background: radial-gradient(
         circle at center center,
         #4079d6 0%,

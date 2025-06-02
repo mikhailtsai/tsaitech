@@ -3,18 +3,7 @@
   position: relative;
 }
 
-.icon {
-  position: absolute;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  left: 0;
-  top: 0;
-  bottom: 0;
-  width: 44px;
-}
-
-input {
+.tsai-text-input {
   padding: 12px 14px 12px 42px;
   font-weight: 500;
   font-size: 13px;
@@ -24,4 +13,15 @@ input {
   border-radius: 8px;
   border: none;
   color: var(--tsai-color-text-tertiary);
+
+  &__icon {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 44px;
+  }
 }

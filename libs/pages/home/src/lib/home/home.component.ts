@@ -1,17 +1,23 @@
 import { ChangeDetectionStrategy, Component } from '@angular/core';
 
-import { ButtonComponent, SafeHtmlPipe } from '@tsaitech/common/ui-kit';
 import { HeaderComponent } from '@tsaitech/layout/header';
 
-import zaebisSvg from './assets/zaebis.svg';
+import {
+  BackgroundZaebisComponent,
+  HeroComponent,
+  WhatWeDoComponent,
+} from './components';
 
 @Component({
   selector: 'tt-home',
-  imports: [HeaderComponent, SafeHtmlPipe, ButtonComponent],
+  imports: [
+    HeaderComponent,
+    HeroComponent,
+    BackgroundZaebisComponent,
+    WhatWeDoComponent,
+  ],
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss',
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class HomeComponent {
-  readonly zaebisSvg = zaebisSvg;
-}
+export class HomeComponent {}

@@ -1,0 +1,26 @@
+@use 'libs/common/ui-kit/helpers.scss';
+
+.zaebis {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+
+  width: 100%;
+  margin-top: 80px;
+
+  &__background {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -1050px;
+    margin-left: -720px;
+    opacity: 0.6;
+    z-index: -1;
+    width: 1440px;
+    height: 2050px;
+
+    background: radial-gradient(circle at right center,#4b296980,#563277 25%,#4a378c 40%,#4066a8 65%,#32517380);
+    mask-image: radial-gradient(ellipse 150% 27% at center center,#000 20%,#00000080 50%,#0000);
+  }
+}

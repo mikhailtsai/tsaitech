@@ -12,12 +12,10 @@
   cursor: pointer;
 
   &.primary {
-    background: radial-gradient(
-        circle at bottom center,
-        rgba(79, 57, 156, 0.9) 0%,
-        rgba(0, 0, 0, 0.15) 50%,
-        rgba(79, 57, 156, 0.68) 100%
-    );
+    background:
+      radial-gradient(141.42% 141.42% at 100% 0%,#fff6,#fff0),
+      radial-gradient(140.35% 140.35% at 100% 94.74%,#4079d6,#bd34fe00),
+      radial-gradient(89.94% 89.94% at 18.42% 15.79%, #ab66ec,#41d1ff00);
     box-shadow: 0 1px #ffffffbf inset;
 
     &:hover:not(:disabled), &:active:not(:disabled) {

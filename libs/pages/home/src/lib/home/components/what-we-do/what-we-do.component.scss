@@ -1,0 +1,156 @@
+@use 'libs/common/ui-kit/helpers.scss';
+
+:host {
+  display: block;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.what-we-do {
+  text-align: center;
+
+  h2 {
+    @include helpers.tsaiFont(landing, heading, subtitle);
+  }
+
+  p {
+    @include helpers.tsaiFont(text, primary);
+
+    margin-top: 16px;
+    line-height: 150%;
+    color: helpers.tsaiColor(text, secondary);
+  }
+
+  &__panels {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 64px;
+
+    &-row {
+      display: flex;
+      flex-direction: row;
+      gap: 32px;
+      width: 100%;
+    }
+  }
+
+  &__panel {
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    padding: 32px;
+    position: relative;
+    overflow: hidden;
+    background: #26262640;
+    flex: 1;
+    border: 1px solid #262626B2;
+    border-radius: 12px;
+    backdrop-filter: blur(40px);
+    height: 348px;
+
+    .image {
+      position: absolute;
+      z-index: -1;
+    }
+
+    .title {
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 26px;
+    }
+
+    .description {
+      margin-top: 8px;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 150%;
+    }
+  }
+
+  &__panels-row:nth-child(1) &__panel:nth-child(1) {
+    flex: 1;
+  }
+
+  &__panels-row:nth-child(1) &__panel:nth-child(2) {
+    flex: 0 0 488px;
+  }
+
+  &__panels-row:nth-child(2) &__panel:nth-child(1) {
+    flex: 0 0 488px;
+  }
+
+  &__panels-row:nth-child(2) &__panel:nth-child(2) {
+    flex: 1;
+  }
+
+  &__web {
+    align-items: center;
+    text-align: center;
+    background: radial-gradient(
+        76.12% 118.53% at 85.74% -60.63%,
+        rgba(65, 209, 255, 0.2) 0%,
+        transparent
+      ),
+      radial-gradient(
+        140px at 0 260px,
+        rgba(184, 106, 238, 0.1),
+        transparent
+      ),
+      rgba(38, 38, 38, 0.25);
+
+    .image {
+      top: 32px;
+    }
+  }
+
+  &__mobile-apps {
+    align-items: start;
+    text-align: left;
+
+    background: radial-gradient(
+        140px at 0 124px,
+        rgba(19, 179, 81, 0.125) 0%,
+        transparent
+      ),
+      #26262640;
+
+    .image {
+      bottom: 0;
+      right: 32px;
+    }
+
+    .title, .description {
+      max-width: 190px;
+    }
+
+    .line {
+      position: absolute;
+      left: 0;
+      top: 124px;
+      height: 1px;
+      width: 260px;
+      background: #13B351;
+      box-shadow: 0 0 8px 0 #13B351;
+    }
+  }
+
+  &__landings {
+    align-items: start;
+    text-align: left;
+
+    background: radial-gradient(
+        140px at 0 124px,
+        rgba(210, 194, 106, 0.125),
+        transparent
+      ),
+      #26262640;
+
+    .image {
+      bottom: 0;
+      right: 63px;
+    }
+  }
+}
